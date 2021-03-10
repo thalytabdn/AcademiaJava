@@ -1,24 +1,23 @@
+package test;
 
 import models.Aluno;
 import models.Curso;
-import repository.RepositorioAlunos;
-import repository.RepositorioAlunosLista;
 
-public class TestaAluno {
+public class TesteAluno {
     public static void main(String[] args) {
-
-		//Criação de cursos
-		Curso curso1 = new Curso(243, "ciencia da computação");
-		Curso curso2 = new Curso(765, "medicina");
 		
-		//Retorna informações dos cursos
-		System.out.println("Cursos:" + "\n");
+        //Criação de cursos
+		Curso curso1 = new Curso(243, "Ciência da Computação");
+		Curso curso2 = new Curso(765, "Medicina");
+		
+        //Retorna informações dos cursos
+		System.out.println("Cursos: \n");
 		System.out.println(curso1.toString());
 		System.out.println(curso2.toString());
 		System.out.println("\n" + "------------------" + "\n");
 
 		//Altera o nome do curso1
-		curso1.setNome("ciencias contábeis");
+		curso1.setNome("Ciências Contábeis");
 
 		//Altera o código do curso1
 		curso2.setCodigo(456);
@@ -28,18 +27,15 @@ public class TestaAluno {
 		System.out.println(curso2.toString());
 		System.out.println("\n" + "------------------" + "\n");
 
-
 		//Cria um novo aluno
-		System.out.println("Alunos:" + "\n");
-		Aluno aluno1 = new Aluno("paula", "1238905340", 29, curso1);
+		Aluno aluno1 = new Aluno("Paula", "1238905340", 29, curso1);
 		
 		//Retorna informações de um aluno
+        System.out.println("Alunos: \n");
 		System.out.println(aluno1.toString());
 		System.out.println("\n" + "------------------" + "\n");
-
-
 		
-		//Faz alterações em aluno1
+		//Realiza alterações em aluno1
 		aluno1.setCpf("897543897654");
 		aluno1.setIdade(25);
 		aluno1.setNome("Paula Nogueira");
@@ -47,7 +43,6 @@ public class TestaAluno {
 
 		//Retorna informações de um aluno após atualização
 		System.out.println(aluno1.toString());
-		
 	}
 
 }

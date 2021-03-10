@@ -1,42 +1,12 @@
 package models;
 
-
-public class Aluno {
+public class Aluno extends Pessoa {
 	
-	private String nome;
-	private String cpf;
-	private int idade;
 	private Curso curso;
-	
+
 	public Aluno(String nome, String cpf, int idade, Curso curso) {
-		this.nome = nome;
-		this.cpf = cpf;
-		this.idade = idade;
+		super(nome, cpf, idade);
 		this.curso = curso;
-	}
-
-	public String getNome() {
-		return nome;
-	}
-
-	public void setNome(String nome) {
-		this.nome = nome;
-	}
-
-	public String getCpf() {
-		return cpf;
-	}
-
-	public void setCpf(String cpf) {
-		this.cpf = cpf;
-	}
-
-	public int getIdade() {
-		return idade;
-	}
-
-	public void setIdade(int idade) {
-		this.idade = idade;
 	}
 
 	public Curso getCurso() {
@@ -46,11 +16,5 @@ public class Aluno {
 	public void setCurso(Curso curso) {
 		this.curso = curso;
 	}
-
-	@Override
-	public String toString() {
-		return "Aluno [nome=" + nome + ", cpf=" + cpf + ", idade=" + idade + ", curso=" + curso.getNome() + "]";
-	}
 		
-
 }

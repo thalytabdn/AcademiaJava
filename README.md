@@ -4,7 +4,7 @@ Primeira semana: Modificadores de acesso, classes e objetos
 
 Segunda semana: Arrays, Collections, Herança
 
-## Grupo 3
+## Grupo 3 🎠✨
 
 - Gabrielly Trajano
 - Thalyta Barbosa

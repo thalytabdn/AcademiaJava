@@ -1,6 +1,6 @@
 package models;
 
-public class Professor extends Pessoa{
+public class Professor extends Pessoa {
 	
 	private double salario;
 
@@ -17,5 +17,4 @@ public class Professor extends Pessoa{
 		this.salario = salario;
 	}
 	
-
 }

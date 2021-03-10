@@ -1,4 +1,4 @@
-## Academia Accenture Projeto
+## Academia Accenture: Projeto
 
 Primeira semana: Modificadores de acesso, classes e objetos
 Segunda semana: Arrays, Collections, Herança

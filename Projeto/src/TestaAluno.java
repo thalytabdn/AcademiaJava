@@ -1,10 +1,12 @@
 
 import models.Aluno;
 import models.Curso;
+import repository.RepositorioAlunos;
+import repository.RepositorioAlunosLista;
 
 public class TestaAluno {
     public static void main(String[] args) {
-		
+
 		//Criação de cursos
 		Curso curso1 = new Curso(243, "ciencia da computação");
 		Curso curso2 = new Curso(765, "medicina");

@@ -1,4 +1,4 @@
-## Academia Accenture: Projeto
+## Academia Java Accenture: Projeto
 
 Primeira semana: Modificadores de acesso, classes e objetos
 

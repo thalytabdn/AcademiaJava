@@ -1,6 +1,7 @@
 ## Academia Accenture: Projeto
 
-Primeira semana: Modificadores de acesso, classes e objetos\n
+Primeira semana: Modificadores de acesso, classes e objetos
+
 Segunda semana: Arrays, Collections, Herança
 
 ## Grupo 3

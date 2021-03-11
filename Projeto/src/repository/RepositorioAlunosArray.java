@@ -2,7 +2,7 @@ package repository;
 
 import models.Aluno;
 
-public class RepositorioAlunosArray {
+public class RepositorioAlunosArray implements RepositorioAlunos {
 	
 	private Aluno[] alunos;
 	private int indice;

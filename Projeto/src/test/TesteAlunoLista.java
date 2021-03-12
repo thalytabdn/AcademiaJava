@@ -19,7 +19,7 @@ public class TesteAlunoLista {
 		Aluno aluno4 = new Aluno("Aluno4", "456789", 19, curso2);
 		Aluno aluno5 = new Aluno("Aluno5", "789456", 22, curso2);
 
-        // Adiciona aluno na lista
+        //Adiciona aluno na lista
 		repAlunos.inserir(aluno1);
 		repAlunos.inserir(aluno2);
 		repAlunos.inserir(aluno3);
@@ -30,7 +30,7 @@ public class TesteAlunoLista {
 
 		repAlunos.remover("000001");
 
-		// Aluno não existe
+		//Aluno não existe
         System.out.println(repAlunos.procurar("000001"));
         
        

@@ -1,5 +1,7 @@
 package repository;
 
+import java.util.Arrays;
+
 import models.Pessoa;
 
 public class RepositorioPessoasArray {
@@ -35,6 +37,11 @@ public class RepositorioPessoasArray {
 				indice -= 1;
 			}
 		}
+	}
+
+	@Override
+	public String toString() {
+		return Arrays.toString(pessoas);
 	}
 	
 }

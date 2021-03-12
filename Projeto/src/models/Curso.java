@@ -5,6 +5,11 @@ public class Curso {
 	private double codigo;
 	private String nome;
 	
+	public Curso() {
+		this.codigo = 0;
+		this.nome = "";
+	}	
+
 	public Curso(double codigo, String nome) {
 		this.codigo = codigo;
 		this.nome = nome;
@@ -28,7 +33,7 @@ public class Curso {
 
 	@Override
 	public String toString() {
-		return "Curso [codigo=" + codigo + ", nome=" + nome + "]";
+		return "Código: " + codigo + "\nNome: " + nome + "\n";
 	}
 
 }

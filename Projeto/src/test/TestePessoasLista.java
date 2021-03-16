@@ -1,17 +1,16 @@
 package test;
 
-import dados.RepositorioPessoasArray;
+import dados.RepositorioPessoasLista;
 import negocio.Aluno;
 import negocio.Curso;
 import negocio.Pessoa;
 import negocio.Professor;
 import negocio.RepositorioPessoas;
 
-public class TestePessoasArray {
-
+public class TestePessoasLista {
+    
     public static void main(String[] args) {
-		
-		RepositorioPessoas repPessoas = new RepositorioPessoasArray(5);
+        RepositorioPessoas repPessoas = new RepositorioPessoasLista();
 		
 		//Criando os cursos
 		Curso curso1 = new Curso(165, "Administração");
@@ -43,8 +42,8 @@ public class TestePessoasArray {
 		//Pessoa não existe
 		System.out.println(repPessoas.procurar("987654") + "\n"); 
 
-		System.out.println(repPessoas.toString());
+		System.out.println(((RepositorioPessoasLista) repPessoas).listarPessoas());
 
-	}
-    
+    }
+
 }
